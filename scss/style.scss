@@ -4,14 +4,25 @@ $image-bg : url(assets/bg-header.jpg);
 /*Globlal*/
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One|Montserrat:300,400,500,600,700,900');
 
-.container-fluid {
+#header {
     background-image: $image-bg;
-    height: 800px;
+    height: 900px;
     font-family: 'Montserrat', sans-serif;
-    position: relative;
-    background-position: -289px -160px;
-    padding: 30px;
+    background-position: -75px -128px;
+    background-size: 2000px;
+    background-repeat: no-repeat;
 }
+
+.header-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 900px;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: white;
+    border-color: white;
+}
+
 
 .navbar-brand img {
     width: 167px;
@@ -25,6 +36,10 @@ $image-bg : url(assets/bg-header.jpg);
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: #8799A3; 
+}
+
+.navbar-togler-icon {
+
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
@@ -46,7 +61,7 @@ $image-bg : url(assets/bg-header.jpg);
 }
 
 .col-6 {
-    top: 230px;
+    top: 200px;
     color: #FFFFFF;
 }
 
@@ -79,7 +94,7 @@ $image-bg : url(assets/bg-header.jpg);
 .btn-primary {
     background-color: #636363;
     border-color: #636363;
-    padding: 15px 30px;
+    padding: 15px 35px;
     border-radius: 50px;
     font-weight: 700;
     font-size: 13px;
