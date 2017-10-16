@@ -14,7 +14,11 @@
 
 .navbar-light .navbar-toggler {
   background-color: white;
-  border-color: white; }
+  border-color: white;
+  font-size: 16px; }
+
+.navbar {
+  padding: 50px 0; }
 
 .navbar-brand img {
   width: 167px; }
@@ -35,7 +39,8 @@
   padding: 8px 35px;
   font-weight: 500;
   border: 2px solid #ffff00;
-  color: #FFFF00; }
+  color: #FFFF00;
+  box-shadow: 5px solid #FFFF00; }
 
 .btn-outline-warning:hover {
   background-color: #ffff00;
@@ -65,7 +70,9 @@
 
 .lead {
   color: #636363;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  font-size: 25px;
+  line-height: 1; }
 
 .btn-primary {
   background-color: #636363;
