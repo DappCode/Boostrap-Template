@@ -2,18 +2,25 @@ $image-bg : url(assets/bg-header.jpg);
 
 
 /*Globlal*/
-@import url('https://fonts.googleapis.com/css?family=Leckerli+One|Montserrat:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One|Montserrat:300,400,500,600,700,900');
 
 .container-fluid {
     background-image: $image-bg;
     height: 800px;
     font-family: 'Montserrat', sans-serif;
     position: relative;
+    background-position: -289px -160px;
+    padding: 30px;
+}
+
+.navbar-brand img {
+    width: 167px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0 1.5rem;
     color: white;
+    font-weight: 500;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
@@ -27,23 +34,60 @@ $image-bg : url(assets/bg-header.jpg);
 .btn-outline-warning {
     border-radius: 50px;
     padding: 8px 35px;
+    font-weight: 500;
+    border: 2px solid #ffff00;
+    color: #FFFF00;
 }
 
-.col-4 {
-    top: 200px;
+.btn-outline-warning:hover {
+    background-color: #ffff00;
+    color: white;
+    border: 2px solid #ffff00;
+}
+
+.col-6 {
+    top: 230px;
     color: #FFFFFF;
 }
 
 .display-5 {
     color: white;
     font-family: 'Leckerli One', cursive;
-    font-size: 20px;
+    font-size: 34px;
+}
+
+.display-3 {
+    font-size: 57px;
+    font-weight: 900;
+    padding: 20px 0 0;
 }
 
 .display-3 .name{
     color: #0081FF;
-    font-size: 30px; 
 }
 
+.display-4 {
+    font-size: 38px;
+    padding-bottom: 20px;
+}
 
+.lead {
+    color: #636363;
+    padding-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #2f2f2f;
+    border-color: #2f2f2f;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: grey;
+    border-color: grey;
+}
 
