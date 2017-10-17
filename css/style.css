@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Leckerli+One|Montserrat:300,400,500,600,700,900");
 #header {
   background-image: url(assets/bg-header.jpg);
-  height: 85  0px;
+  height: 850px;
   font-family: 'Montserrat', sans-serif;
   background-position: -75px -128px;
   background-size: 2000px;
@@ -18,7 +18,7 @@
   font-size: 16px; }
 
 .navbar {
-  padding: 50px 0; }
+  padding: 50px 0 0; }
 
 .navbar-brand img {
   width: 167px; }
@@ -86,5 +86,50 @@
 .btn-primary:hover {
   background-color: grey;
   border-color: grey; }
+
+#section-head {
+  background-color: #0081FF;
+  height: 500px; }
+
+.display-2 {
+  font-size: 45px;
+  font-weight: 900; }
+
+.content {
+  padding: 0 10px; }
+
+.col-6 .content-2 {
+  font-size: 20px; }
+
+.section-2 {
+  padding: 65px 0 0; }
+
+#section-content {
+  background-color: #007af3;
+  height: 340px;
+  color: white;
+  padding: 90px 0; }
+
+.col-1 img {
+  height: 60px;
+  display: inline; }
+
+.col-3 .display-4 {
+  font-size: 25px;
+  font-weight: 700; }
+
+.col-3 p {
+  font-size: 20px; }
+
+#section-media {
+  background-color: #0081FF; }
+
+.paragraph {
+  font-size: 30px;
+  color: white;
+  display: inline; }
+
+.navbar-nav li {
+  display: inline; }
 
 /*# sourceMappingURL=style.css.map */
