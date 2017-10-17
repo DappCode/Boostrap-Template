@@ -92,21 +92,22 @@ body {
 
 #section-head {
   background-color: #0081FF;
-  height: 500px; }
+  height: 510px; }
 
 .display-2 {
   font-size: 40px;
   font-weight: 900;
-  padding-top: 15px; }
+  padding-top: 15px;
+  line-height: 50px; }
 
 .content {
   padding: 0 10px; }
 
 .col-6 .content-2 {
-  font-size: 19px; }
+  font-size: 18px; }
 
 .section-2 {
-  padding: 65px 0 0; }
+  padding: 95px 0 0; }
 
 #section-content {
   background-color: #007af3;
@@ -128,7 +129,7 @@ body {
 
 #section-media {
   background-color: #0081FF;
-  padding: 90px 0 100px; }
+  padding: 90px 0 95px; }
 
 .media-content {
   font-size: 20px;
@@ -136,7 +137,8 @@ body {
   display: inline; }
 
 .media-content p {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 18px; }
 
 .media {
   display: inline; }
