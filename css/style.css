@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Leckerli+One|Montserrat:300,400,500,600,700,900");
 #header {
   background-image: url(assets/bg-header.jpg);
-  height: 900px;
+  height: 85  0px;
   font-family: 'Montserrat', sans-serif;
   background-position: -75px -128px;
   background-size: 2000px;
@@ -10,7 +10,7 @@
 
 .header-bg {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 900px; }
+  height: 850px; }
 
 .navbar-light .navbar-toggler {
   background-color: white;
@@ -48,7 +48,7 @@
   border: 2px solid #ffff00; }
 
 .col-6 {
-  top: 200px;
+  top: 135px;
   color: #FFFFFF; }
 
 .display-5 {
@@ -71,13 +71,13 @@
 .lead {
   color: #636363;
   padding-bottom: 10px;
-  font-size: 25px;
+  font-size: 16px;
   line-height: 1; }
 
 .btn-primary {
   background-color: #636363;
   border-color: #636363;
-  padding: 15px 35px;
+  padding: 18px 34px;
   border-radius: 50px;
   font-weight: 700;
   font-size: 13px;
