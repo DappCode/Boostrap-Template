@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Leckerli+One|Montserrat:300,400,500,600,700,900");
 @import url("https://fonts.googleapis.com/css?family=Cambay:400,700|Coustard:400,900");
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 #header {
   background-image: url(assets/bg-header.jpg);
@@ -46,7 +46,7 @@ body {
   padding: 8px 35px;
   font-weight: 500;
   border: 2px solid #ffff00;
-  color: #FFFF00;
+  color: #ffff00;
   box-shadow: 0 1px 5px #ffff00; }
 
 .btn-outline-warning:hover {
@@ -60,7 +60,7 @@ body {
 
 .display-5 {
   color: white;
-  font-family: 'Leckerli One', cursive;
+  font-family: "Leckerli One", cursive;
   font-size: 34px; }
 
 .display-3 {
