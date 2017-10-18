@@ -1,13 +1,13 @@
-$image-bg : url(assets/bg-header.jpg);
+$image-bg: url(assets/bg-header.jpg);
 $bg-section: #0081FF;
 $color-1: #8799A3;
 $black-1: #252525;
-$btn:     #1CBBB3;
+$btn : #1CBBB3;
 
 /*Globlal*/
+
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One|Montserrat:300,400,500,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Cambay:400,700|Coustard:400,900');
-
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -44,14 +44,16 @@ body {
     color: white;
     font-weight: 400;
     font-size: 16px;
-    
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: #8799A3; 
+    color: #8799A3;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
     color: #8799A3
 }
 
@@ -61,12 +63,12 @@ body {
     font-weight: 500;
     border: 2px solid #ffff00;
     color: #FFFF00;
-    box-shadow: 5px solid #FFFF00;
+    box-shadow: 0 1px 5px #ffff00;
 }
 
 .btn-outline-warning:hover {
     background-color: #ffff00;
-    color: white;
+    color: black;
     border: 2px solid #ffff00;
 }
 
@@ -87,9 +89,9 @@ body {
     padding: 20px 0 0;
 }
 
-.display-3 .name{
+.display-3 .name {
     color: #0081FF;
-} 
+}
 
 .display-4 {
     font-size: 38px;
@@ -140,11 +142,11 @@ body {
 }
 
 .section-2 {
-    padding: 95px 0 0; 
+    padding: 95px 0 0;
 }
 
 #section-content {
-    background-color: #007af3; 
+    background-color: #007af3;
     height: 310px;
     color: white;
     padding: 90px 0;
@@ -168,7 +170,6 @@ body {
 #section-media {
     background-color: $bg-section;
     padding: 90px 0 95px;
-    
 }
 
 .media-content {
@@ -176,7 +177,6 @@ body {
     color: white;
     display: inline;
 }
-
 
 .media-content p {
     display: inline-block;
@@ -193,7 +193,7 @@ body {
 }
 
 .media li a i {
-    color:#3a9dff;
+    color: #3a9dff;
     padding: 0 15px;
     font-size: 23px;
 }
@@ -201,4 +201,3 @@ body {
 .media li.active a i {
     color: white;
 }
-
