@@ -126,7 +126,7 @@ body {
     border-color: grey;
 }
 
-.sosial {
+.sosial-about {
     background-color: $bg-section;
     height: 530px;
 }
@@ -173,38 +173,38 @@ body {
     font-size: 17px;
 }
 
-#section-media {
+#section-sosial {
     background-color: $bg-section;
     padding: 90px 0 95px;
 }
 
-.media-content {
+.sosial-content {
     font-size: 20px;
     color: white;
     display: inline;
 }
 
-.media-content p {
+.sosial-content p {
     display: inline-block;
     font-size: 18px;
 }
 
-.media {
+.sosial {
     display: inline;
 }
 
-.media li {
+.sosial li {
     display: inline;
     color: white;
 }
 
-.media li a i {
+.sosial li a i {
     color: #3a9dff;
     padding: 0 15px;
     font-size: 23px;
 }
 
-.media li.active a i {
+.sosial li.active a i {
     color: white;
 }
 
@@ -350,19 +350,19 @@ body {
     padding: 100px 0;
 }
 
-.main-client {
-    text-align: center;
-}
 
 .client-header {
     font-family: $font-2;
     color: white;
+    font-size: 25px;
+    padding: 15px 0;
 }
 
 .client-say {
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 900;
+    padding: 0 0 80px;
 }
 
 .client-1, {
@@ -370,9 +370,20 @@ body {
 }
 
 .carousel-item img {
-    display: inline;
     border-radius: 100%;
     object-fit: cover;
     width: 50px;
     height: 50px;
 }
+
+.client-name {
+    color: #FFFB00;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.client-job {
+    font-size: 15px;
+    color: grey;
+}
+
